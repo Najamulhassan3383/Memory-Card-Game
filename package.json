@@ -1,13 +1,13 @@
 {
   "name": "memory_card_game",
+  "homepage": "http://Najamulhassan3383.github.io/Memory-Card-Game/ ",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://Najamulhassan3383.github.io/Memory-Card-Game ",
   "scripts": {
-    "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
